@@ -1,0 +1,53 @@
+.backgr {
+    .register {
+        display: flex;
+        background-color: white;
+        width: 700px;
+        height: 650px;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        .pass-repass {
+            display: flex;
+            width: 570px;
+            justify-content: space-between;
+        }
+        .oneline {
+            outline: none;
+            border: none;
+            background: #f2f2f2;
+            padding: 10px;
+            width: 550px;
+            font-size: 20px;
+            margin: 10px 0 0px 0;
+        }
+        .twolines {
+            border: none;
+            outline: none;
+            background: #f2f2f2;
+            font-size: 20px;
+            padding: 10px;
+            margin: 10px 15px 0px 0;
+            width: 252px;
+        }
+        button {
+            border: none;
+            padding: 14px;
+            background: #4169E1;
+            color: white;
+            margin: 0 0 15px;
+            width: 200px;
+        }
+        button:hover {
+            background: rgba(65, 105, 225, 0.85) ;
+        }
+        select {
+            height: 44px;
+        }
+        p{
+            margin: 0px;
+            font-size: 14px;
+            color: red;
+        }
+    }
+}

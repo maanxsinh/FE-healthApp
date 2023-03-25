@@ -1,0 +1,83 @@
+.DatLich {
+    .header {
+        .home {
+            font-size: 30px;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+    }
+    .title {
+        margin-left: 130px;
+    }
+    .doctor {
+        background-color: #f6f6f6;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        .img {
+            margin-left: 150px;
+            border-radius: 100%;
+            height: 70%;
+        }
+        .pos-spe {
+            margin-left: 20px;
+            .pos {
+                color: #337ab7;
+                font-size: 20px;
+                font-weight: 600;
+                cursor: pointer;
+            }
+            .spe {
+
+            }
+        }
+        
+    }
+    .select-doctor-date {
+        display: flex;
+        justify-content: space-around;
+        .select-doctor {
+            .cus-select {
+                margin-top: 10px;
+                width: 500px;
+                height: 40px;
+            }
+        }
+        .select-date {
+            .cus-select {
+                margin-top: 10px;
+                width: 500px;
+                height: 37px;
+            }
+        }
+    }
+    .time {
+        margin: 20px 130px;
+        height: 100px;
+        display: flex;
+        gap: 15px;
+        .cus-select {
+            height: 40px;
+        }
+    }
+    .btn-book {
+        font-size: 125%;
+        height: 40px;
+        width: 100px;
+        margin-left: 130px;
+    }
+
+    .alert-success {
+        animation: show_slide ease 1s forwards;
+        width: 40vw;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 450px;
+        border: solid 1px green;
+    }
+    @keyframes show_slide {
+        0% {
+            transform: translateY(-100%);
+        }
+    }
+}

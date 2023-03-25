@@ -1,0 +1,18 @@
+.Media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 20px 0 50px;
+    .titles {
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .img {
+        margin-left: 100px;
+        img {
+            height: 100px;
+            width: 200px;
+        }
+    }
+}

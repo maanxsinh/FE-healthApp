@@ -1,0 +1,133 @@
+.datLich {
+    .doctor {
+        background-color: #e5e5e5;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inf-client {
+        background-color: #fff7dc;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        Input {
+            width: 500px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    
+        TextArea {
+            width: 500px;
+        }
+    }
+
+    .Notes {
+        background-color:#fff7dc ;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        .price {
+            background-color: #f6f6f6;
+            margin-top: 15px;
+            width: 500px;
+            border-radius: 10px;
+            div {
+                padding: 5px 15px;
+                display: flex;
+                justify-content: space-between;
+            }
+            div.Tong {
+                border-top: 1px solid #ccc;
+                .giaTong {
+                    color: rgb(254, 56, 52);
+                }
+            }
+
+        }
+        .luuY {
+            .title {
+                font-weight: 700;
+            }
+            margin-top: 15px;
+            border-radius: 10px;
+            background-color: #D4EFFC;
+            width: 500px;
+            padding: 15px;
+            box-sizing: border-box;
+            
+        }
+    }
+
+    .confirmed {
+        background-color: #fff7dc;
+            display: flex;
+            justify-content: center;
+            .button {
+                width: 500px;
+                margin: 15px 0px;
+            }
+    }
+    
+
+    
+}
+// .Header {
+//     height: 80px;
+//       display: flex;
+//       justify-content: space-around;
+//       align-items: center;
+  
+//         .section {
+  
+//           .text {
+//             color: white;
+//             text-decoration: none;
+//             font-weight: bold;
+  
+//             .mota {
+//               font-size: 13px;
+//               font-weight: 300;
+//               margin: 5px 0px;
+//             }
+//           }
+//         }
+  
+//         .input {
+//           height: 40px;
+//           width: 230px;
+//           border-radius: 20px;
+//           display: flex;
+//           align-items: center;
+//           background-color: rgba(3, 138, 255, 0.75);
+//           transition: width 0.5s ease-in-out;
+  
+//           .search-icon {
+//             margin-left: 10px;
+//             margin-right: 5px;
+//             color: white;
+//           }
+  
+//           .search {
+//             border: none;
+//             outline: none;
+//             height: 30px;
+//             border-radius: 20px;
+//             background-color: rgba(3, 138, 255, 0.75);
+            
+//             // transition: all 1s ease-out;
+//           }
+//           ::placeholder {
+//             color: rgba(255, 255, 255, 0.75)
+//           }
+//         }
+  
+//         .input:hover {
+//           width: 300px;
+//         }
+//         .search:focus {
+//           width: 300px;
+//         }
+//   }

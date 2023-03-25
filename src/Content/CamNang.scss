@@ -1,0 +1,47 @@
+.CamNang {
+    .slick-slider {
+        display: flex;
+        align-items: center;
+        .slick-prev {
+            width: 40px ;
+            height: 40px;
+            font-size: 20px !important;
+            border-radius: 10px;
+            margin-left: 20px;
+            position: relative !important;
+            background-color: rgba(65, 105, 225, 0.85);
+            left: 0 !important;
+        }
+        .slick-next {
+            width: 40px ;
+            height: 40px;
+            font-size: 20px !important;
+            border-radius: 10px;
+            margin-right: 20px;
+            position: relative !important;
+            background-color: rgba(65, 105, 225, 0.85);
+            right: 0 !important;
+        }
+    }
+    
+.title {
+    margin: 30px;
+    color: #333;
+    
+}
+.section {
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    margin-left: 30px;
+    .image {
+
+    }
+
+    .title-section {
+        font-size: 20px;
+        margin-left: 15px;
+        font-weight: 600;
+    }
+}
+}

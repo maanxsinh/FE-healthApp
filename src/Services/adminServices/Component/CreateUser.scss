@@ -1,0 +1,32 @@
+.modal-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0 ,0, 0.5);
+    display: flex;
+    justify-content: center;
+    
+    .modal-content {
+        margin-top: 60px;
+        height: 450px;
+        width: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        select {
+            width: 100px;
+            margin: 10px 0 0 10px;
+        }
+        div {
+            display: flex;
+            margin:0 0 15px 30px;
+            p {
+                width: 150px;
+                margin: 0;
+            }
+        }
+        button {
+            width: 100px;
+            margin: 10px;
+        }
+    }
+}
